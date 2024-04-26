@@ -1,4 +1,9 @@
 
+#Docker file create with using ubuntu and nginx 
+
+A brief description of what this project does and who it's for
+
+
 ## Installation
 
 Add to config into Dockerfile
@@ -62,10 +67,12 @@ vim index.html
 ``` bash
 sudo docker build -t yourcontainername-ver .
 ```
-
+## Check your build file
 ``` bash
 sudo docker images 
 ```
+## Test run nginx webserver with custom container file
 ``` bash
 sudo docker run -d --name myweb -p 8080:8080 yourcontainername-ver
 ```
+
